@@ -2,7 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 :root {
   
   --colorPrimary: #3898ec;
@@ -30,8 +29,8 @@ body {
   font-weight: 400;
 
   color-scheme: dark;
-  color: #ffffffde;
-  background-color: #242424;
+  color: var(--primaryTextColor);
+  background-color: var(--backgroundPrimary);
 }
 
 a {
