@@ -4,14 +4,7 @@ html {
 
 
 :root {
-  font-family: sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: dark;
-  color: #ffffffde;
-  background-color: #242424;
-
+  
   --colorPrimary: #3898ec;
 
   /* BACKGROUND */
@@ -29,6 +22,16 @@ html {
 
     /* Link */
     --visitedLinkColor: #3898ec; /* pendiente color del link visitado */
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: #ffffffde;
+  background-color: #242424;
 }
 
 a {
