@@ -4,6 +4,27 @@ html {
 
 
 :root {
+  
+  --colorPrimary: #3898ec;
+
+  /* BACKGROUND */
+  --backgroundPrimary: #16161a;
+  --backgroundSecondary: #232629;
+  --backgroundCard: #16161a;
+
+  /* FONT  */
+  --titleColor: #fffffe;
+  --primaryTextColor: #94a1b2;
+
+  /* BUTTON */
+  --btnHover: #535bf2 /* pendiente el color del hover */
+  --btnColorText: #fffffe;
+
+    /* Link */
+    --visitedLinkColor: #3898ec; /* pendiente color del link visitado */
+}
+
+body {
   font-family: sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -15,16 +36,17 @@ html {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--colorPrimary);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--btnHover);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: var(--titleColor);
 }
 
 
