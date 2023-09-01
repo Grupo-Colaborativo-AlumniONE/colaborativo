@@ -1,0 +1,19 @@
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-icon {
+  margin-right: 0.75rem;
+
+
+}
+
+.logo-text {
+  text-transform: capitalize;
+  font-family: var(--fontPrimary);
+  font-weight: var(--fontBold);
+  font-size: var(--fontSizeTitle);
+  line-height: var(--fontHeightTitle);
+}
