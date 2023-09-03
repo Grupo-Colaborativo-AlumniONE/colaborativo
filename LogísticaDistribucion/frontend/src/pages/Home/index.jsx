@@ -1,7 +1,5 @@
 import Layout from '../../components/Layout'
-import AcUnitIcon from '@mui/icons-material/AcUnit';
-
-
+import AcUnitIcon from '@mui/icons-material/AcUnit'
 
 const Home = () => {
   return (
