@@ -1,8 +1,6 @@
-import './style.css'
-
 const Layout = ({ children }) => {
   return (
-    <main className='main-container'>
+    <main className='flex flex-col items-center mt-20'>
       { children }
     </main>
   )
