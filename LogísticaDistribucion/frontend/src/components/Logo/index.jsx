@@ -1,17 +1,16 @@
 import Factory from '@mui/icons-material/Factory'
-import './style.css'
 
 const Logo = () => {
   return (
   <>
-  <div className='logo-container'>
-    <div className='logo-icon'>
+  <div className='flex flex-row items-center'>
+    <div className='mr-4'>
       <Factory
         fontSize="large"
-        sx={{ color: 'var(--colorPrimary)' }}
+        sx={{ color: '#3898ec' }}
       />
     </div>
-    <p className='logo-text'>colaborativo | logistica y distribucion</p>
+    <p className='capitalize font-sans leading-7 font-bold text-lg text-colorPrimary' >colaborativo | logistica y distribucion</p>
   </div>
   </>
   )
