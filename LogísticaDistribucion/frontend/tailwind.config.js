@@ -8,7 +8,7 @@ module.exports = {
         colorSecondary: 'rgb(161, 163, 247)',
         backgroundPrimary: '#16161a',
         backgroundSecondary: '#232629',
-        backgroundCard: '#16161a',
+        backgroundCard: '#232629',
         fontPrimary: '#fffffe',
         titleColor: '#94a1b2',
         btnColor: '#3898ec',
