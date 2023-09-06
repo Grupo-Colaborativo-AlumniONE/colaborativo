@@ -10,7 +10,7 @@ const Logo = () => {
         sx={{ color: '#3898ec' }}
       />
     </div>
-    <p className='capitalize font-sans leading-7 font-bold text-xs xs:text-lg text-colorPrimary' >logistica y distribucion</p>
+    <p className='capitalize font-sans leading-7 font-bold text-xs md:text-lg lg:text-2xl text-colorPrimary' >logistica y distribucion</p>
   </div>
   </>
   )
