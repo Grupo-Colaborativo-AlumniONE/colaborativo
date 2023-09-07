@@ -10,3 +10,9 @@
     @apply bg-backgroundPrimary text-fontPrimary font-sans;
   }
 }
+
+@layer components {
+  .gradientLogo {
+    @apply uppercase font-sans leading-7 font-bold text-xs md:text-lg lg:text-2xl bg-clip-text text-transparent bg-gradient-to-b from-[#5EA2EF] to-[#0072F5]
+  }
+}
