@@ -4,7 +4,7 @@ import { useState } from 'react'
 const InputSearch = () => {
   const [inputFocused, setInputFocused] = useState(true)
   const [styleForm, setstyleForm] = useState(
-    'flex gap-2 justify-center relative bg-backgroundSecondary rounded-full outline-none p-2 pl-4  border-2 border-titleColor'
+    'flex gap-2  justify-items-start relative bg-backgroundSecondary rounded-full outline-none p-2 pl-4  border-2 border-titleColor'
   )
   const [styleIconSearch, setstyleIconSearch] = useState('text-titleColor')
 
@@ -20,19 +20,19 @@ const InputSearch = () => {
   const isFocus = () => {
     if (inputFocused) {
       setstyleForm(
-        'flex gap-2 justify-center relative bg-backgroundSecondary rounded-full outline-none p-2 pl-4  border-2 border-colorPrimary'
+        'flex gap-2 justify-items-start relative bg-backgroundSecondary rounded-full outline-none p-2 pl-4  border-2 border-colorPrimary'
       )
       setstyleIconSearch('text-colorPrimary')
     } else {
       setstyleForm(
-        'flex gap-2 justify-center relative bg-backgroundSecondary rounded-full outline-none p-2 pl-4  border-2 border-titleColor'
+        'flex gap-2 justify-items-start relative bg-backgroundSecondary rounded-full outline-none p-2 pl-4  border-2 border-titleColor'
       )
       setstyleIconSearch('text-titleColor')
     }
   }
 
   return (
-    <div>
+    <div className='w-full'>
       <form className={styleForm}>
         <label
           htmlFor='inputSearch'
@@ -46,7 +46,7 @@ const InputSearch = () => {
         <input
           id='inputSearch'
           type='search'
-          className='bg-inherit outline-none '
+          className='bg-inherit outline-none w-full'
           placeholder='Search...'
           onFocus={handleOnFocus}
           onBlur={handleOnBlur}
