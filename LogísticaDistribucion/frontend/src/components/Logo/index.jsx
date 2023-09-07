@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom'
 import Factory from '@mui/icons-material/Factory'
 
 const Logo = () => {
   return (
   <>
-  <div className='flex flex-row items-center'>
+  <Link to='/' className='flex flex-row items-center'>
     <div className='mr-2'>
       <Factory
         fontSize="large"
@@ -11,7 +12,7 @@ const Logo = () => {
       />
     </div>
     <p className='capitalize font-sans leading-7 font-bold text-xs md:text-lg lg:text-2xl text-colorPrimary' >logistica y distribucion</p>
-  </div>
+  </Link>
   </>
   )
 }
