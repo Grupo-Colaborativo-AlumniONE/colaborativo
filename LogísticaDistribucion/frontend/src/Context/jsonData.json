@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "producto": "Producto 1",
+      "status": "Enviado"
+    },
+    {
+      "id": 2,
+      "producto": "Producto 2",
+      "status": "Enviado"
+    },
+    {
+      "id": 3,
+      "producto": "Producto 3",
+      "status": "Cancelado"
+    }
+  ],
+  "columns": [
+    { "id": 1, "key": "id", "label": "ID" },
+    { "id": 2, "key": "producto", "label": "Producto" },
+    { "id": 3, "key": "status", "label": "Status" }
+  ]
+}
