@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Layout from '../../components/Layout'
+import Navbar from '../../components/NavBar'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
             </button>
           </Link>
       </Layout>
+      <Navbar/>
     </>
   )
 }
