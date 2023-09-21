@@ -1,7 +1,6 @@
 import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
-  /*We are no using some of the colors defined here, but we can use them in the future*/
   palette: {
     primary: {
       main: "#3898ec", // Color primario
