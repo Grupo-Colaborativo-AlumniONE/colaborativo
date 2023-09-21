@@ -1,12 +1,12 @@
 import "./App.css";
 import React from "react";
-import Dashboard from "./components/Dashboard";
+import Dashboard from "./components/Dashboard/Dashboard";
 import { ThemeProvider } from "@mui/material/styles";
-import Sidebar from "./components/Sidebar";
-import Projects from "./components/Projects";
-import Calendar from "./components/Calendar";
-import Kanban from "./components/Kanban";
-import Report from "./components/Report";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Projects from "./pages/Projects";
+import Calendar from "./components/Calendar/Calendar";
+import Kanban from "./components/Kanban/Kanban";
+import Report from "./components/Report/Report";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import theme from "./components/Theme";
 function App() {

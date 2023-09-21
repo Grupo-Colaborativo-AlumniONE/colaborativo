@@ -21,7 +21,7 @@ const theme = createTheme({
       hover: "#535bf2", // Color al pasar el ratón sobre los botones
       text: "#fffffe", // Color del texto en los botones
       cancel: "#f85149", // Color del botón de cancelar
-      hoverCancel: "#f85149", // Color al pasar el ratón sobre el botón de cancelar
+      hoverCancel: "#f85149", // Color al pasar el ratón sobre el botón de cancelar Mejor usar cancel como hover y agregarle opacity de 0.6
       add: "#4caf50", // Color del botón de agregar
       delete: "#f85149", // Color del botón de eliminar
     },
@@ -30,7 +30,7 @@ const theme = createTheme({
       visited: "#535bf2", // Color de los enlaces visitados
     },
     drawer: {
-      main: "#013E74", // Color del drawer
+      main: "#013E74", // Color del drawer/sidebar
     },
   },
   fontFamily: {
