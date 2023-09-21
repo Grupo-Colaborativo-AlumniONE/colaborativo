@@ -1,42 +1,26 @@
-/* !!!!!! ve al style.css del componente Layout para estilos globales */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@layer base {
 
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  body,
+  html {
+    scroll-behavior: smooth;
+    @apply bg-backgroundPrimary text-fontPrimary font-sans;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@layer components {
+  .gradientLogo {
+    @apply uppercase font-sans leading-7 font-bold text-xs md:text-lg lg:text-2xl bg-clip-text text-transparent bg-gradient-to-b from-[#5EA2EF] to-[#0072F5]
   }
 }
- */
+
+/*       violet: 'from-[#FF1CF7] to-[#b249f8]',
+      yellow: 'from-[#FF705B] to-[#FFB457]',
+      blue: 'from-[#5EA2EF] to-[#0072F5]',
+      cyan: 'from-[#00b7fa] to-[#01cfea]',
+      green: 'from-[#6FEE8D] to-[#17c964]',
+      pink: 'from-[#FF72E1] to-[#F54C7A]',
+      foreground: 'dark:from-[#FFFFFF] dark:to-[#4B4B4B]' */

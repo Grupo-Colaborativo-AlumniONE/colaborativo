@@ -2,7 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 :root {
   
   --colorPrimary: #3898ec;
@@ -13,11 +12,17 @@ html {
   --backgroundCard: #16161a;
 
   /* FONT  */
+  --fontPrimary: sans-serif
   --titleColor: #fffffe;
   --primaryTextColor: #94a1b2;
+  --fontRegular: 400;
+  --fontBold: 800;
+  --fontHeightRegular: 1.25rem;
+  --fontHeightTitle: 1.75rem;
+  --fontSizeTitle: 1.25rem; 
 
   /* BUTTON */
-  --btnHover: #535bf2 /* pendiente el color del hover */
+  --btnHover: #535bf2; /* pendiente el color del hover */
   --btnColorText: #fffffe;
 
     /* Link */
@@ -30,8 +35,8 @@ body {
   font-weight: 400;
 
   color-scheme: dark;
-  color: #ffffffde;
-  background-color: #242424;
+  color: var(--primaryTextColor);
+  background-color: var(--backgroundPrimary);
 }
 
 a {

@@ -1,15 +1,22 @@
+import { Link } from 'react-router-dom'
 import Layout from '../../components/Layout'
-import AcUnitIcon from '@mui/icons-material/AcUnit';
-
-
+import Navbar from '../../components/NavBar'
 
 const Home = () => {
   return (
     <>
       <Layout>
-        <AcUnitIcon fontSize="large" color="primary" />
-        <h1> Hola este es el Home, busca en la carpeta pages/Home.jsx para que ahi pongas las secciones :)  </h1>
+        <h1 className='mt-5 text-2xl text-colorSecondary'>
+          Hola este es el Home, busca en la carpeta pages/Home.jsx para que ahi pongas las secciones :)
+          </h1>
+          {/* Este Link se posicionara en el sidebar cuando este listo */}
+          <Link to='/tracking-product'>
+            <button className='mt-5 bg-btnColor hover:bg-btnHover text-btnColorText font-bold py-2 px-4 rounded-md'>
+              Ir a Tracking Product
+            </button>
+          </Link>
       </Layout>
+      <Navbar/>
     </>
   )
 }
