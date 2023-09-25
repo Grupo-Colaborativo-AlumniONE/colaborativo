@@ -1,11 +1,12 @@
 package repository;
 
+import model.Proyecto;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Date;
 import java.util.List;
 
-public interface ProyectoRepository<Proyecto> extends JpaRepository<Proyecto, Long> {
+public interface ProyectoRepository extends JpaRepository<Proyecto, Long> {
     // Método para buscar proyectos por estado
     List<Proyecto> findByEstado(String estado);
 

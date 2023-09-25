@@ -32,7 +32,7 @@ public class ProyectoController {
 
     @PostMapping
     public Proyecto crearProyecto(@RequestBody Proyecto proyecto) {
-        return ProyectoRepository.save(proyecto);
+        return proyectoRepository.save(proyecto);
     }
 
     @PutMapping("/{id}")
