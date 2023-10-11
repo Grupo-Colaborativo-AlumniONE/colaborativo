@@ -98,7 +98,7 @@ const Navbar = () => {
             {navSection.map((section, index) => (
               <div className='gap-4 divide-y divide-gray-700 hover:divide-colorPrimary' key={index}>
                 <Link to={section.routeLink}>
-                  <div className='p-4 gap-2 flex items-center rounded-md px-4 duration-300 cursor-pointer  hover:bg-gray-900'>
+                  <div className='p-4 gap-2 flex items-center rounded-md px-4 duration-300 cursor-pointer  hover:bg-gray-900 hover:duration-700'>
                     {section.iconSection}
                     {section.label}
                   </div>
