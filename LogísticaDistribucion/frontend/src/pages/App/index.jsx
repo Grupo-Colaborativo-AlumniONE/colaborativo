@@ -4,6 +4,7 @@ import { LogisticaProvider } from '../../Context'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import './App.css'
+import Navbar from '../../components/NavBar'
 
 function App () {
   return (
@@ -12,6 +13,7 @@ function App () {
         <BrowserRouter>
           <Header />
           <AppRoutes />
+          <Navbar />
           <Footer />
         </BrowserRouter>
       </LogisticaProvider>
